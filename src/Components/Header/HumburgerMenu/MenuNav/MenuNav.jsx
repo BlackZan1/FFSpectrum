@@ -21,7 +21,7 @@ export default (props) => {
                 </div>
 
                 <div className='Menu-routes'>
-                    <NavLink exact to={'/'} activeClassName='selected'>Search</NavLink>
+                    <NavLink exact to={'/FFSpectrum'} activeClassName='selected'>Search</NavLink>
                     <img src={underline} alt="-"/>
 
                     <NavLink exact to={'/collection/characters'} activeClassName='selected'>Collection</NavLink>
