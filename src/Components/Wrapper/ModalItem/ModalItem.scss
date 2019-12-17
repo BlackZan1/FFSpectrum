@@ -1,0 +1,67 @@
+.ModalItem {
+    z-index: 9999;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background: rgba($color: #000000, $alpha: 0.9);
+    height: 140px;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeInUp .5s ease-in-out;
+    font-size: 20px;
+
+    & > p {
+        & > span {
+            background: url('https://i.imgur.com/pDf8P0I.png');
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-size: cover;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    .ModalItem-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & > a {
+            color: cornflowerblue;
+        }
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .ModalItem {
+        font-size: 12px;
+        height: 100px;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+@media (max-width: 700px) and (min-width: 450px) {
+    
+}
+
+@media (max-width: 450px) and (min-width: 300px) {
+    .ModalItem {
+        height: 10px;
+    }
+}

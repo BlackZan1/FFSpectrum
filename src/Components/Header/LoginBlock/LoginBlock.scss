@@ -1,0 +1,119 @@
+.LoginBlock {
+    .LoginBlock-image {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #a9a9a9;
+        cursor: pointer;
+        background: #a9a9a9;
+
+        & > img {
+            width: 120px;
+        }
+    }
+}
+
+.ModalLogin {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 80px;
+    left: -65px;
+    z-index: 999999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #dcdcdc;
+    padding: 5px;
+    border-radius: 10px;
+    background: #fff;
+
+    .ModalLogin-title {
+        color: #323232;
+        font-size: 18px;
+        font-weight: 500;
+        margin: 15px 0px;
+        text-align: center;
+        
+        & > img {
+            width: 90%;
+            margin: 5px auto 5px;
+            height: 35px;
+        }
+    }
+
+    .ModalLogin-nav {
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+        margin: -15px 0px;
+
+        & > ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+
+            & > li > a {
+                color: #323232;
+                text-decoration: none;
+                transition: all .3s ease;
+
+                &:focus {
+                    color: #323232;
+                }
+
+                &:hover {
+                    color: orange;
+                }
+
+                & > span {
+                    height: 25px;
+                    width: 25px;
+                    background: crimson;
+                    border-radius: 50%;
+                    color: #fff;
+                    overflow: hidden;
+                    position: absolute;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    top: 0px;
+                    right: -30px;
+                    font-size: 14px;
+                    font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                }
+            }
+
+            & > li {
+                margin: 0px 0px 5px;
+                position: relative;
+                
+            }
+
+            li:nth-child(3) {
+                margin: 10px 0px 0px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1250px) and (min-width: 1100px) {
+    .LoginBlock {
+        .LoginBlock-image {
+            width: 50px;
+            height: 50px;
+
+            & > img {
+                width: 90px;
+            }
+        }
+    }
+}

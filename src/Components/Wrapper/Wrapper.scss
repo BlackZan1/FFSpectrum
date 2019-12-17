@@ -1,0 +1,36 @@
+.Wrapper {
+    .Wrapper-list {
+        background: #323232;
+        color: #fff;
+        padding: 20px 0px;
+        animation: fadeInLeft .5s linear;
+    }
+}
+
+.Wrapper-list-not-p {
+    font-size: 26px;
+    text-align: center;
+    color: rgb(214, 153, 62);
+    font-family: 'Final Fantasy', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+}

@@ -1,0 +1,28 @@
+.Title {
+    height: 100px;
+    width: 100%;
+    background: #323232;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Title-p {
+    font-size: 34px;
+    color: #fff;
+    margin: 10px 0px 5px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 700px) and (min-width: 450px) {
+    .Title-p {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 450px) and (min-width: 300px) {
+    .Title-p {
+        font-size: 20px;
+    }
+}

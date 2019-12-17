@@ -1,0 +1,73 @@
+.CollectionPage {
+    width: 100%;
+
+    .Title-span {
+            background: url("https://i.imgur.com/pDf8P0I.png");
+            background-size: cover;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 500;
+    }
+
+    .CollectionPage-list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .CollectionPage-filter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        button {
+            width: 120px;
+            height: 40px;
+            border: 1px solid #323232;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 2px;
+            background: #fff;
+            transition: all .4s ease;
+            font-size: 12px;
+
+            &:hover {
+                border: 1px solid orange;
+                color: orange;
+            }
+        }
+
+        .Filter-gender, .Filter-race {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+    }
+}
+
+.Title-a {
+    color: royalblue;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        color: darken($color: royalblue, $amount: 5);
+    }
+}
+
+@media screen and (max-width: 1750px) {
+    .CollectionPage {
+        .CollectionPage-title {
+            font-size: 28px;
+        }
+
+        .CollectionPage-list {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

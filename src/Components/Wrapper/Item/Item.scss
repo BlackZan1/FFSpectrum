@@ -1,0 +1,265 @@
+.Wrapper-item {
+    width: 80%;
+    display: block;
+    padding: 25px 0px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    animation: zoomIn 1s ease-in-out;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-radius: 20px;
+
+    .Item-info {
+        width: 600px;
+        min-height: 350px;
+        max-height: 100%;
+        padding: 20px 0px 30px;
+        background: #fff;
+        color: #323232;
+        border-radius: 15px;
+        overflow: auto;
+
+        .Item-name {
+            text-align: center;
+            font-size: 28px;
+            font-weight: 500;
+            background: url('https://i.imgur.com/pDf8P0I.png');
+            background-clip: text;
+            background-size: cover;
+            -webkit-text-fill-color: transparent;
+        }
+
+        & > img {
+            width: 75%;
+            display: block;
+            margin: -35px auto 0px;
+        }
+
+        .Item-description {
+            font-size: 18px;
+            margin: -20px 0px 0px;
+            padding: 0px 30px;
+        }
+    }
+
+    .Item-order {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .Item-order-btn {
+            margin: 30px 0px 0px;
+
+            & > button {
+                width: 200px;
+                height: 55px;
+                background: #EB5757;
+                border-radius: 10px;
+                font-size: 20px;
+                color: #fff;
+                transition: all .4s ease-in-out;
+                cursor: pointer;
+                border: 1px solid #fff;
+
+                &:hover {
+                    background: rgb(161, 56, 56);
+                    border: 2px solid #fff;
+                }
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            .Item-order-not {
+                width: 200px;
+                height: 45px;
+                font-size: 20px;
+                border: 1px solid #EB5757;
+                padding: 5px 0px;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                animation: flash .5s ease;
+            }
+        }
+
+        .Item-order-price {
+            font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 22px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            & > img {
+                height: 60px;
+                width: 150px;
+                border: 2px solid #fff;
+                border-radius: 10px;
+                margin: 0 auto;
+            }
+
+            & > div {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+
+    .Item-portret {
+        position: relative;
+        width: 300px;
+
+        .Item-image {
+            width: 300px;
+            height: 300px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            border-radius: 15px;
+    
+            & > img {
+                width: 300px;
+            }
+        }
+
+        .Item-rotate {
+            position: absolute;
+            font-size: 21px;
+            color: #dcdcdc;
+            width: 100%;
+            letter-spacing: 5px;
+            font-family: 500;
+            font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            transform: rotate(90deg) translate(0, -50%);
+            top: 48%;
+            left: 55%;
+        }
+    }
+}
+
+//Animations
+@keyframes zoomIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(0.3, 0.3, 0.3);
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+}
+
+@keyframes flash {
+    from,
+    50%,
+    to {
+      opacity: 1;
+    }
+  
+    25%,
+    75% {
+      opacity: 0;
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 700px) {
+    .Wrapper-item {
+        display: flex;
+        flex-direction: column;
+        
+        .Item-info {
+            margin: 0px 0px 20px;
+        }
+
+        .Item-order {
+            margin: 0px 0px 20px;
+        }
+    }
+}
+
+@media (max-width: 700px) and (min-width: 450px) {
+    .Wrapper-item {
+        display: flex;
+        flex-direction: column;
+        
+        .Item-info {
+            width: 400px;
+            margin: 0px 0px 20px;
+        }
+
+        .Item-order {
+            margin: 0px 0px 20px;
+        }
+    }
+}
+
+@media (max-width: 450px) and (min-width: 300px) {
+    .Wrapper-item {
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        
+        .Item-info {
+            width: 250px;
+            margin: 0px 0px 20px;
+
+            .Item-name {
+                font-size: 20px;
+            }
+    
+            & > img {
+                margin: -5px auto 0px;
+            }
+    
+            .Item-description {
+                font-size: 10px;
+                margin: -10px 0px 0px;
+                padding: 0px 30px;
+            }
+        }
+
+        .Item-order {
+            margin: 0px 0px 20px;
+        }
+
+        .Item-portret {
+            position: relative;
+            width: 250px;
+    
+            .Item-image {
+                width: 150px;
+                height: 150px;
+                margin: 0 auto;
+        
+                & > img {
+                    width: 150px;
+                }
+            }
+    
+            .Item-rotate {
+                position: absolute;
+                font-size: 6px;
+                transform: rotate(90deg) translate(-5%, -50%);
+                top: 90%;
+                left: 35%;
+            }
+        }
+    }
+}
