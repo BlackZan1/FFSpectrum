@@ -1,11 +1,8 @@
 import React from 'react';
 import './CardPage.scss';
 import Title from '../Title/Title';
-import { Redirect } from 'react-router-dom';
 
 export default (props) => {
-    if(!props.cardBody) return <Redirect to={'/collection/monsters'} />
-
     return <>
         <Title>
             <div className='CardPage-name'>

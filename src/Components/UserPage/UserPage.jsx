@@ -8,7 +8,7 @@ import Title from '../Title/Title';
 
 const UserPage = ({user, userItems}) => {
     const showCollection = userItems.map((item, index) => {
-        return <CollectionItem picture={item.picture} name={item.name} description={item.description} key={index} />
+        return <CollectionItem {...item} key={index} />
     });
 
     return (
@@ -25,7 +25,7 @@ const UserPage = ({user, userItems}) => {
                         {userItems.length > 0 ? showCollection : <div className='Go-to-shop'>
                             <img src={moggle} alt="Loading..."/>
 
-                            <NavLink to={'/'}>Go shopping ></NavLink>
+                            <NavLink to={'/FFSpectrum'}>Go shopping ></NavLink>
                         </div>}
                     </div>
                 </div>

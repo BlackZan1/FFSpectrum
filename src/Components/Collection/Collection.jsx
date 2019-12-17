@@ -19,8 +19,8 @@ const Collection = ({allCollection, type, filterTags, filterCharCollection}) => 
             return null;
     }
 
-    const showCharacters = collection.map(item => {
-        return <CollectionItem key={Math.random() * 2} picture={item.picture} name={item.name} />
+    const showCharacters = collection.map((item, index) => {
+        return <CollectionItem key={index} {...item} />
     })
 
     return (

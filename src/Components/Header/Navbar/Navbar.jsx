@@ -7,7 +7,7 @@ export default (props) => {
     return (
         <div className='Header-nav'>
             <ul>
-                <li><NavLink to='/'>Search</NavLink> <img src={underline} alt="-"/></li>
+                <li><NavLink to='/FFSpectrum'>Search</NavLink> <img src={underline} alt="-"/></li>
                 <li><NavLink to='/collection/characters'>Collection</NavLink> <img src={underline} alt="-"/></li>
                 <li>
                     {

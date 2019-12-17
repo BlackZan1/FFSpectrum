@@ -30,6 +30,8 @@ const toggleCardFetching = (isCardFetch) => ({type: TOGGLE_CARD_FETCHING, isCard
 export const getCardBody = (name, type) => (dispatch) => {
     dispatch(toggleCardFetching(true));
 
+    if(name.trim() === '') return dispatch(setCardBody(null))
+
     switch(type) {
         case 'monsters':
             getMonster(name)

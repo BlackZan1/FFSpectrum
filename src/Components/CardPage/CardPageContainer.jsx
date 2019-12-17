@@ -2,7 +2,7 @@ import React from 'react';
 import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { getCardBody } from '../../Redux/cardReducer';
-import { withRouter, Redirect } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import BigLoader from '../Loader/BigLoader';
 import CardPage from './CardPage';
 
@@ -15,9 +15,8 @@ class CardPageContainer extends React.Component {
 
     render() {
         let {isFetching, cardBody} = this.props;
-        let { cardName } = this.props.match.params;
 
-        return this.props.cardBody.name ? isFetching ? <BigLoader /> : <CardPage cardBody={cardBody} /> : <Redirect to={'/monsters/' + cardName} />
+        return isFetching ? <BigLoader /> : <CardPage cardBody={cardBody} />
     }
 }
 
