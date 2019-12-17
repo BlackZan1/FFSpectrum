@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/FFSpectrum/static/css/main.2e460b99.chunk.css",
+    "main.js": "/FFSpectrum/static/js/main.e2ce8748.chunk.js",
+    "main.js.map": "/FFSpectrum/static/js/main.e2ce8748.chunk.js.map",
+    "runtime-main.js": "/FFSpectrum/static/js/runtime-main.3240c2aa.js",
+    "runtime-main.js.map": "/FFSpectrum/static/js/runtime-main.3240c2aa.js.map",
+    "static/js/2.4d6cd21e.chunk.js": "/FFSpectrum/static/js/2.4d6cd21e.chunk.js",
+    "static/js/2.4d6cd21e.chunk.js.map": "/FFSpectrum/static/js/2.4d6cd21e.chunk.js.map",
+    "index.html": "/FFSpectrum/index.html",
+    "precache-manifest.4a5dd8faf3dc5c4b4a50b3d50dd5fe6d.js": "/FFSpectrum/precache-manifest.4a5dd8faf3dc5c4b4a50b3d50dd5fe6d.js",
+    "service-worker.js": "/FFSpectrum/service-worker.js",
+    "static/css/main.2e460b99.chunk.css.map": "/FFSpectrum/static/css/main.2e460b99.chunk.css.map",
+    "static/media/App.scss": "/FFSpectrum/static/media/FFFONT.52970dad.otf",
+    "static/media/CardPage.scss": "/FFSpectrum/static/media/bg.4bdeceab.jpg",
+    "static/media/block-underline.png": "/FFSpectrum/static/media/block-underline.6bc5527a.png",
+    "static/media/logo.png": "/FFSpectrum/static/media/logo.b940efa6.png",
+    "static/media/moogle.png": "/FFSpectrum/static/media/moogle.43a6a4f8.png",
+    "static/media/userWP.png": "/FFSpectrum/static/media/userWP.945f33b6.png",
+    "static/media/MonsterPage.scss": "/FFSpectrum/static/media/wild-bg.0b26d3ac.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3240c2aa.js",
+    "static/js/2.4d6cd21e.chunk.js",
+    "static/css/main.2e460b99.chunk.css",
+    "static/js/main.e2ce8748.chunk.js"
+  ]
+}
