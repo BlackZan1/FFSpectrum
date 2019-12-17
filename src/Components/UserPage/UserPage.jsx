@@ -25,7 +25,7 @@ const UserPage = ({user, userItems}) => {
                         {userItems.length > 0 ? showCollection : <div className='Go-to-shop'>
                             <img src={moggle} alt="Loading..."/>
 
-                            <NavLink to={'/'}>Go shopping ></NavLink>
+                            <NavLink to={'/FFSpectrum'}>Go shopping ></NavLink>
                         </div>}
                     </div>
                 </div>
