@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/FFSpectrum/static/css/main.2e460b99.chunk.css",
+    "main.css": "/FFSpectrum/static/css/main.411d12bd.chunk.css",
     "main.js": "/FFSpectrum/static/js/main.f34bae40.chunk.js",
     "main.js.map": "/FFSpectrum/static/js/main.f34bae40.chunk.js.map",
     "runtime-main.js": "/FFSpectrum/static/js/runtime-main.3240c2aa.js",
@@ -8,9 +8,9 @@
     "static/js/2.e3901c7a.chunk.js": "/FFSpectrum/static/js/2.e3901c7a.chunk.js",
     "static/js/2.e3901c7a.chunk.js.map": "/FFSpectrum/static/js/2.e3901c7a.chunk.js.map",
     "index.html": "/FFSpectrum/index.html",
-    "precache-manifest.403b21e4140cb9bc11ffa9a9c72e8992.js": "/FFSpectrum/precache-manifest.403b21e4140cb9bc11ffa9a9c72e8992.js",
+    "precache-manifest.b77279a6c60d24aab0e455dd9ef245ad.js": "/FFSpectrum/precache-manifest.b77279a6c60d24aab0e455dd9ef245ad.js",
     "service-worker.js": "/FFSpectrum/service-worker.js",
-    "static/css/main.2e460b99.chunk.css.map": "/FFSpectrum/static/css/main.2e460b99.chunk.css.map",
+    "static/css/main.411d12bd.chunk.css.map": "/FFSpectrum/static/css/main.411d12bd.chunk.css.map",
     "static/media/App.scss": "/FFSpectrum/static/media/FFFONT.52970dad.otf",
     "static/media/CardPage.scss": "/FFSpectrum/static/media/bg.4bdeceab.jpg",
     "static/media/block-underline.png": "/FFSpectrum/static/media/block-underline.6bc5527a.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.3240c2aa.js",
     "static/js/2.e3901c7a.chunk.js",
-    "static/css/main.2e460b99.chunk.css",
+    "static/css/main.411d12bd.chunk.css",
     "static/js/main.f34bae40.chunk.js"
   ]
 }

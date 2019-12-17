@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "58f72cceed50277199b6c529279c647a",
+    "revision": "b850b59dbbcf7b07426ff52be557d485",
     "url": "/FFSpectrum/index.html"
   },
   {
-    "revision": "7aec9eefb58032a61cda",
-    "url": "/FFSpectrum/static/css/main.2e460b99.chunk.css"
+    "revision": "ce62cd3ee8d30bff9ec7",
+    "url": "/FFSpectrum/static/css/main.411d12bd.chunk.css"
   },
   {
     "revision": "30fc30a61bcc3599a04e",
     "url": "/FFSpectrum/static/js/2.e3901c7a.chunk.js"
   },
   {
-    "revision": "7aec9eefb58032a61cda",
+    "revision": "ce62cd3ee8d30bff9ec7",
     "url": "/FFSpectrum/static/js/main.f34bae40.chunk.js"
   },
   {
