@@ -104,35 +104,3 @@
       transform: translate3d(100%, 0, 0);
     }
 }
-
-@media (max-width: 600px) and (min-width: 300px) {
-  .Menu-nav {
-    font-size: 10px;
-    padding: 5px;
-
-    .Menu-routes {
-      & > img {
-        width: 80px;
-      }
-    }
-
-    .Menu-user {
-      .Menu-user-info {
-        .Menu-user-image {
-          height: 40px;
-          width: 40px;
-          overflow: hidden;
-          border-radius: 50%;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-
-          & > img {
-            width: 80px;
-          }
-        }
-      }
-    }
-  }
-}
