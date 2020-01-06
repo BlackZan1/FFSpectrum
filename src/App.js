@@ -15,7 +15,7 @@ const App = () => {
     <div className="Spectrum">
       <HeaderContainer />
 
-      <Route path='/FFSpectrum' render={() => (
+      <Route path='/ff-game-info-shop' render={() => (
         <>
           <IntroContainer />
           <WrapperContainer />
