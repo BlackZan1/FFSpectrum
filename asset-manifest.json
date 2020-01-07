@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/FFSpectrum/static/css/main.4edd8d32.chunk.css",
-    "main.js": "/FFSpectrum/static/js/main.f34bae40.chunk.js",
-    "main.js.map": "/FFSpectrum/static/js/main.f34bae40.chunk.js.map",
-    "runtime-main.js": "/FFSpectrum/static/js/runtime-main.3240c2aa.js",
-    "runtime-main.js.map": "/FFSpectrum/static/js/runtime-main.3240c2aa.js.map",
-    "static/js/2.e3901c7a.chunk.js": "/FFSpectrum/static/js/2.e3901c7a.chunk.js",
-    "static/js/2.e3901c7a.chunk.js.map": "/FFSpectrum/static/js/2.e3901c7a.chunk.js.map",
-    "index.html": "/FFSpectrum/index.html",
-    "precache-manifest.d3e88841303848f1741866cb90e92e20.js": "/FFSpectrum/precache-manifest.d3e88841303848f1741866cb90e92e20.js",
-    "service-worker.js": "/FFSpectrum/service-worker.js",
-    "static/css/main.4edd8d32.chunk.css.map": "/FFSpectrum/static/css/main.4edd8d32.chunk.css.map",
-    "static/media/App.scss": "/FFSpectrum/static/media/FFFONT.52970dad.otf",
-    "static/media/CardPage.scss": "/FFSpectrum/static/media/bg.4bdeceab.jpg",
-    "static/media/block-underline.png": "/FFSpectrum/static/media/block-underline.6bc5527a.png",
-    "static/media/logo.png": "/FFSpectrum/static/media/logo.b940efa6.png",
-    "static/media/moogle.png": "/FFSpectrum/static/media/moogle.43a6a4f8.png",
-    "static/media/userWP.png": "/FFSpectrum/static/media/userWP.945f33b6.png",
-    "static/media/MonsterPage.scss": "/FFSpectrum/static/media/wild-bg.0b26d3ac.jpg"
+    "main.css": "/ff-game-info-shop/static/css/main.928d6228.chunk.css",
+    "main.js": "/ff-game-info-shop/static/js/main.056053c5.chunk.js",
+    "main.js.map": "/ff-game-info-shop/static/js/main.056053c5.chunk.js.map",
+    "runtime-main.js": "/ff-game-info-shop/static/js/runtime-main.d843c1a5.js",
+    "runtime-main.js.map": "/ff-game-info-shop/static/js/runtime-main.d843c1a5.js.map",
+    "static/js/2.e3901c7a.chunk.js": "/ff-game-info-shop/static/js/2.e3901c7a.chunk.js",
+    "static/js/2.e3901c7a.chunk.js.map": "/ff-game-info-shop/static/js/2.e3901c7a.chunk.js.map",
+    "index.html": "/ff-game-info-shop/index.html",
+    "precache-manifest.bb2aafc433fb586ff62da0adfa832980.js": "/ff-game-info-shop/precache-manifest.bb2aafc433fb586ff62da0adfa832980.js",
+    "service-worker.js": "/ff-game-info-shop/service-worker.js",
+    "static/css/main.928d6228.chunk.css.map": "/ff-game-info-shop/static/css/main.928d6228.chunk.css.map",
+    "static/media/App.scss": "/ff-game-info-shop/static/media/FFFONT.52970dad.otf",
+    "static/media/CardPage.scss": "/ff-game-info-shop/static/media/bg.4bdeceab.jpg",
+    "static/media/block-underline.png": "/ff-game-info-shop/static/media/block-underline.6bc5527a.png",
+    "static/media/logo.png": "/ff-game-info-shop/static/media/logo.b940efa6.png",
+    "static/media/moogle.png": "/ff-game-info-shop/static/media/moogle.43a6a4f8.png",
+    "static/media/userWP.png": "/ff-game-info-shop/static/media/userWP.945f33b6.png",
+    "static/media/MonsterPage.scss": "/ff-game-info-shop/static/media/wild-bg.0b26d3ac.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3240c2aa.js",
+    "static/js/runtime-main.d843c1a5.js",
     "static/js/2.e3901c7a.chunk.js",
-    "static/css/main.4edd8d32.chunk.css",
-    "static/js/main.f34bae40.chunk.js"
+    "static/css/main.928d6228.chunk.css",
+    "static/js/main.056053c5.chunk.js"
   ]
 }
