@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44458276c7c392adad4d621884974062",
+    "revision": "47e6f1f372ac5ef24eaaf6f43fa2c379",
     "url": "/ff-game-info-shop/index.html"
   },
   {
-    "revision": "28b5a3efaf85fad32acd",
-    "url": "/ff-game-info-shop/static/css/main.928d6228.chunk.css"
+    "revision": "0bc2c01adb12553d7d0d",
+    "url": "/ff-game-info-shop/static/css/main.bf0c2270.chunk.css"
   },
   {
     "revision": "30fc30a61bcc3599a04e",
     "url": "/ff-game-info-shop/static/js/2.e3901c7a.chunk.js"
   },
   {
-    "revision": "28b5a3efaf85fad32acd",
-    "url": "/ff-game-info-shop/static/js/main.056053c5.chunk.js"
+    "revision": "0bc2c01adb12553d7d0d",
+    "url": "/ff-game-info-shop/static/js/main.5c386370.chunk.js"
   },
   {
     "revision": "7d039b05a3029b5f5caa",

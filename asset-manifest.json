@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ff-game-info-shop/static/css/main.928d6228.chunk.css",
-    "main.js": "/ff-game-info-shop/static/js/main.056053c5.chunk.js",
-    "main.js.map": "/ff-game-info-shop/static/js/main.056053c5.chunk.js.map",
+    "main.css": "/ff-game-info-shop/static/css/main.bf0c2270.chunk.css",
+    "main.js": "/ff-game-info-shop/static/js/main.5c386370.chunk.js",
+    "main.js.map": "/ff-game-info-shop/static/js/main.5c386370.chunk.js.map",
     "runtime-main.js": "/ff-game-info-shop/static/js/runtime-main.d843c1a5.js",
     "runtime-main.js.map": "/ff-game-info-shop/static/js/runtime-main.d843c1a5.js.map",
     "static/js/2.e3901c7a.chunk.js": "/ff-game-info-shop/static/js/2.e3901c7a.chunk.js",
     "static/js/2.e3901c7a.chunk.js.map": "/ff-game-info-shop/static/js/2.e3901c7a.chunk.js.map",
     "index.html": "/ff-game-info-shop/index.html",
-    "precache-manifest.bb2aafc433fb586ff62da0adfa832980.js": "/ff-game-info-shop/precache-manifest.bb2aafc433fb586ff62da0adfa832980.js",
+    "precache-manifest.539d044e8b34c48bd10910a01761be8d.js": "/ff-game-info-shop/precache-manifest.539d044e8b34c48bd10910a01761be8d.js",
     "service-worker.js": "/ff-game-info-shop/service-worker.js",
-    "static/css/main.928d6228.chunk.css.map": "/ff-game-info-shop/static/css/main.928d6228.chunk.css.map",
+    "static/css/main.bf0c2270.chunk.css.map": "/ff-game-info-shop/static/css/main.bf0c2270.chunk.css.map",
     "static/media/App.scss": "/ff-game-info-shop/static/media/FFFONT.52970dad.otf",
     "static/media/CardPage.scss": "/ff-game-info-shop/static/media/bg.4bdeceab.jpg",
     "static/media/block-underline.png": "/ff-game-info-shop/static/media/block-underline.6bc5527a.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.d843c1a5.js",
     "static/js/2.e3901c7a.chunk.js",
-    "static/css/main.928d6228.chunk.css",
-    "static/js/main.056053c5.chunk.js"
+    "static/css/main.bf0c2270.chunk.css",
+    "static/js/main.5c386370.chunk.js"
   ]
 }
